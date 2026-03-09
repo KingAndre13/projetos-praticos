@@ -54,8 +54,28 @@ section p {
     margin-bottom: 20px;
 }
 
+section p label {
+    width: 70px;
+}
+
+section p input{
+    flex: 1;
+}
+
 section h2 {
     text-align: center;
     margin: 40px 0px;
+}
+
+button {
+    display: inline-block;
+    width: 150px;
+    margin-top: 20px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: #FFC257;
 }
 
