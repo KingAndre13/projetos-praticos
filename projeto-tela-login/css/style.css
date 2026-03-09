@@ -46,7 +46,7 @@ section {
     background-color: #061021;
     color: #fff;
     width: 45vw;
-    height: 20vh;
+    height: 40vh;
     border-radius: 5px;
 }
 
@@ -56,5 +56,6 @@ section p {
 
 section h2 {
     text-align: center;
+    margin: 40px 0px;
 }
 
