@@ -99,14 +99,19 @@ section p label {
     width: 70px;
 }
 
-section p input{
+section p input {
     flex: 1;
     height: 30px;
     border: none;
     border-radius: 5px;
     font-size: 1.2em;
     margin-top: 5px;
+    margin-bottom: 5px;
     padding: 8px;
+}
+
+section p input:focus {
+    outline: 2px solid #FFC257
 }
 
 section h2 {
