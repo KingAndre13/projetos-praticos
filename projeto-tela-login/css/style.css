@@ -92,7 +92,7 @@ section {
 section p {
     display: flex;
     flex-direction: column;
-    width: 120%;
+    width: 80%;
 }
 
 section p label {
@@ -121,7 +121,7 @@ section h2 {
 }
 
 button {
-    width: 120%;
+    width: 80%;
     margin-top: 20px;
     height: 50px;
     border: none;
