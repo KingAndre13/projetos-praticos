@@ -9,11 +9,16 @@
 
 body {
     background-color:#ffdda3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
+    flex: 1;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -59,10 +64,35 @@ section {
     width: 80vw;
     height: 70vh;
     border-radius: 5px;
+    border: 10px solid white;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0,2);
 }
 
+@media (min-width:600px) {
+section {
+    width: 60vw;
+}
+    
+}
+
+@media (min-width:900px) {
+section {
+    width: 50vw;
+}
+
+}
+
+@media (min-width:1200px) {
+section {
+    width: 40vw;
+}
+
+}
 section p {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
 }
 
 section p label {
@@ -75,6 +105,8 @@ section p input{
     border: none;
     border-radius: 5px;
     font-size: 1.2em;
+    margin-top: 5px;
+    padding: 8px;
 }
 
 section h2 {
@@ -84,7 +116,7 @@ section h2 {
 }
 
 button {
-    width: 150px;
+    width: 80%;
     margin-top: 20px;
     height: 50px;
     border: none;
@@ -93,6 +125,7 @@ button {
     cursor: pointer;
     background-color: #FFC257;
     transition: all 0.3s ease;
+    font-weight: bold;
 }
 
 button:hover {
