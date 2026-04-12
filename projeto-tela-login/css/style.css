@@ -62,9 +62,8 @@ section {
     color: #fff;
     width: 80vw;
     height: 70vh;
-    margin-bottom: 5vh;
+    margin-bottom: 7.5vh;
     border-radius: 5px;
-    border: 10px solid white;
     padding: 30px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0,2);
 }
