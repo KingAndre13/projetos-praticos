@@ -35,24 +35,6 @@ header img {
     display: inline-block;
 }
 
-nav {
-    display: none;
-    line-height: 20px;
-    margin-right: 30px;
-    align-self: center;
-}
-
-nav span {
-    margin-left: 40px;
-    cursor: pointer;
-}
-
-nav span:hover {
-    color: white;
-    font-size: 1.1em;
-    transition: all 0.3s ease;
-}
-
 section {
     display: flex;
     flex-flow: column wrap;
