@@ -8,8 +8,10 @@
 }
 
 header {
+    display: flex;
+    align-items: center;
     background-color: #FFF;
-    height: 50px;
+    height: 100px;
 }
 
 header img {
@@ -17,10 +19,18 @@ header img {
 }
 
 nav {
-    background-color: #3A86FF;
+    background-color: #3a85ff;
 }
 
-nav ul li{
-    display: inline-block;
-    margin-left: 5px;
+nav a{
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #6293e1;
+    cursor: pointer;
 }
