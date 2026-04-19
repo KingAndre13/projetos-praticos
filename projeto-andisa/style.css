@@ -1,6 +1,16 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: principal;
+    src: url('./font/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: negrito;
+    src: url('./font/Poppins/Poppins-Bold.ttf');
+}
+
 * {
+    font-family: principal, sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -47,5 +57,7 @@ section {
 }
 
 section h2 {
+    font-family: negrito, sans-serif;
     text-align: center;
+    background-color: #00C896;
 }
