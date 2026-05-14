@@ -17,6 +17,7 @@
     text-decoration: none;
 }
 
+
 header {
     display: flex;
     align-items: center;
@@ -93,6 +94,11 @@ section h2 {
     font-family: negrito, sans-serif;
     text-align: center;
     background-color: #00C896;
+}
+
+section#tarefasPrincipais p {
+    margin-top: 3em;
+    text-align: center;
 }
 
 footer {
