@@ -1,6 +1,3 @@
-let menu = document.querySelector('#menu');
-let button = document.querySelector('#hamburger');
+import { botaoMenu } from "./modulos/botaoMenu.js";
 
-button.addEventListener('click', () => {
-    menu.classList.toggle('active');
-});
+botaoMenu();
