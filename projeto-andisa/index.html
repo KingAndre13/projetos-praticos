@@ -14,7 +14,7 @@
     <nav>
         <div id="menu">
             <a href="#">Minhas Tarefas</a>
-            <a href="#">Adicionar Tarefas</a>
+            <a id="opcaoAdicionar" href="#">Adicionar Tarefas</a>
             <a href="#">Tarefas Agendadas</a>
         </div>
 
@@ -23,6 +23,13 @@
         </div>
         </nav>
     <main>
+        <section id="criarTarefa">
+            <h2>Cria uma Tarefa</h2>
+            <p>Título: <input type="text" name="titleTarefa" id="titleTarefa"></p>
+            <p>Horário: <input type="time" name="horarioTarefa" id="horarioTarefa"></p>
+            <p>Validade da Tarefa: <input type="date" name="dataTarefa" id="dataTarefa"></p>
+            <button id="botaoTarefa">Criar Tarefa</button>
+        </section>
         <section id="tarefasPrincipais">
             <h2>Minhas Tarefas</h2>
             <p>Nenhuma Tarefa adicionada!</p>
