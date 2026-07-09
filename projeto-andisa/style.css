@@ -125,11 +125,35 @@ section#criarTarefa button {
     background-color: firebrick;
     color: #fff;
     border: none;
+    cursor: pointer;
+}
+
+section#criarTarefa button:hover {
+    background-color: red;
+}
+
+section#tarefasPrincipais {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 0;
+    padding-bottom: 10px;
+}
+
+section#tarefasPrincipais h2 {
+   align-self: flex-start;
+   flex: 1 0 93vw;
 }
 
 section#tarefasPrincipais p {
-    margin-top: 3em;
     text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 1 96vw;
 }
 
 footer {
