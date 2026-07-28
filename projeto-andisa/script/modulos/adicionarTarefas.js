@@ -3,6 +3,7 @@ export function adicionarTarefas () {
     let criarTarefas = document.querySelector('#criarTarefa');
     let botaoTarefa = document.querySelector('#botaoTarefa');
     let tarefasPrincipais = document.querySelector('#tarefasPrincipais');
+    let dataformatada = new Date();
 
 
     botaoAdicionar.addEventListener('click', () => {
@@ -21,7 +22,12 @@ export function adicionarTarefas () {
         let getHorarioTarefa = horarioTarefa.value;
 
         let dataTarefa = document.querySelector('#dataTarefa');
-        let getDataTarefa = dataTarefa.value;
+        let valorInput = dataTarefa.value;
+        let getDataTarefa;
+        if(valorInput) {
+            const [ano, mes, dia] = valorInput.split('-');
+            getDataTarefa = `${dia}/${mes}/${ano}`;
+        }
 
 
         tarefaCriada.innerHTML = `<strong>Tarefa: </strong> ${getTituloTarefa} - <strong>Horário: </strong>${getHorarioTarefa} - <strong>Data: </strong>${getDataTarefa}`;
