@@ -33,6 +33,10 @@ export function adicionarTarefas () {
         tarefaCriada.innerHTML = `<strong>Tarefa: </strong> ${getTituloTarefa} - <strong>Horário: </strong>${getHorarioTarefa} - <strong>Data: </strong>${getDataTarefa}`;
         tarefasPrincipais.appendChild(tarefaCriada);
 
+        tituloTarefa.value = "";
+        horarioTarefa.value = "";
+        dataTarefa.value = "";
+
     });
 
 
