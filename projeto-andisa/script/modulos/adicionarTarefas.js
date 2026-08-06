@@ -29,8 +29,11 @@ export function adicionarTarefas () {
             getDataTarefa = `${dia}/${mes}/${ano}`;
         }
 
+        let ordenador = new Date(valorInput) - dataformatada.getTime();
+
 
         tarefaCriada.innerHTML = `<strong>Tarefa: </strong> ${getTituloTarefa} - <strong>Horário: </strong>${getHorarioTarefa} - <strong>Data: </strong>${getDataTarefa}`;
+        tarefaCriada.style.order = `${Math.round(ordenador / 10000000 + 20)}`;
         tarefasPrincipais.appendChild(tarefaCriada);
 
         tituloTarefa.value = "";
